@@ -7,8 +7,15 @@ export const ContainerWrapper = styled.div`
     grid-template-rows: 7.8rem 20rem 5rem auto;
     gap: 0 2rem;
 
-`
 
+`
+// @media only screen and (min-width: 768px) {
+//     /* For everything bigger than 768px */
+//     .col-1{
+//       width: 8.33%;
+//     }  .col-2 {...}  .col-3{
+//       width: 25%;
+//     }}
 
 // @media ${props => props.theme.breakpoints.tablet} {
 //     grid-template-columns: 2rem repeat(6, 1fr) 2rem;
